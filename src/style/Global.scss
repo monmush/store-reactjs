@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, div, body{
+    box-sizing: border-box;
+    margin: 0;
+}
 .flex{
     display:flex;
     flex-direction: row;
@@ -12,3 +16,44 @@ hr{
 .center{
     text-align: center;
 }
+
+.background{
+    background-image: url('../assets/img/background.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+
+}
+h2{
+    margin:0;
+}
+.nav-wrapper{
+    background-color: white;
+    color: black;
+}
+
+nav ul a {
+    color: black;
+}
+
+.brand-logo{
+    color: black;
+}
+
+nav .brand-logo {
+    color: black;
+}
+
+#homebutton{
+    position: absolute;
+    top: 50vh;
+    left:50%;
+    background-color: white;
+    color:black;
+}
+#homebutton:hover{
+    color: orangered;  
+}
+

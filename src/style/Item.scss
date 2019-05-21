@@ -1,9 +1,11 @@
 .item{
-    border: 2px solid pink;
+    position: relative;
+    top: 10vh;
     width: 55%;
     margin: 1em auto;
     padding: .5em;
     padding-left: 1em;
     box-sizing: border-box;
+    background-color: white;
 }
 

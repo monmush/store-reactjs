@@ -25,8 +25,8 @@ class Cart extends Component {
       const totalPrice = price.reduce(priceReducer,0);
 
     return (
-      <div>
-        <h2>This is a shopping cart</h2>
+      <div className="background">
+        <h5>This is a shopping cart</h5>
         {itemsInCartList}
         <hr/>
         <p className="center">Total: ${totalPrice}</p>

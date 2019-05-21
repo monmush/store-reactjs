@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
     return (
       <nav>
         <div className="nav-wrapper">
-          <a href="#" className ="brand-logo">Logo</a>
+          <a href="#" className ="brand-logo">A Simple Store</a>
           <ul id="nav-mobile" className="right">
             <li>
               <Link to="/">Home</Link>

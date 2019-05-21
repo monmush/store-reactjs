@@ -3,7 +3,7 @@ import Items from '../component/Items'
 
 const Shop = () => {
     return(
-        <div>
+        <div className="background">
             <Items/>
         </div>
     )
