@@ -9,7 +9,7 @@ const Item = (props) => {
       </div>
 
       <div>
-      <a class="waves-effect waves-light btn" onClick={props.clicked}>Add to cart</a>
+      <a className="waves-effect waves-light btn" onClick={props.clicked} >Add to cart</a>
       </div>
     </div>
   )

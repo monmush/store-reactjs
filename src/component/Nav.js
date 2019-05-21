@@ -6,9 +6,9 @@ import {connect} from 'react-redux';
   render(){
     return (
       <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right">
+        <div className="nav-wrapper">
+          <a href="#" className ="brand-logo">Logo</a>
+          <ul id="nav-mobile" className="right">
             <li>
               <Link to="/">Home</Link>
             </li>
